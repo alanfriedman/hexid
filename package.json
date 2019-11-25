@@ -1,6 +1,6 @@
 {
   "name": "hexid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates random hex string",
   "main": "index.js",
   "author": "Alan Friedman",
