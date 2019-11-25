@@ -1,0 +1,8 @@
+{
+  "name": "hexid",
+  "version": "1.0.0",
+  "description": "Generates random hex string",
+  "main": "index.js",
+  "author": "Alan Friedman",
+  "license": "MIT"
+}
