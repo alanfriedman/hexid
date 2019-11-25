@@ -2,7 +2,7 @@ const crypto = require('crypto')
 
 function hexID(numberOfBytes = 16) {
   return new Promise((resolve, reject) => {
-    crypto.randomBytes(numberOfBytes, function(err, buffer) {
+    crypto.randomBytes(numberOfBytes, (err, buffer) => {
       if (err) {
         reject(err);
         return;
