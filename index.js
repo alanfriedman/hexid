@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const utils = require('utils');
+const utils = require('util');
 
 const awaitableRandomBytes = utils.promisify(crypto.randomBytes);
 
