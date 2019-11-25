@@ -1,15 +1,12 @@
-const crypto = require('crypto')
+const crypto = require('crypto');
+const utils = require('utils');
 
-function hexID(numberOfBytes = 16) {
-  return new Promise((resolve, reject) => {
-    crypto.randomBytes(numberOfBytes, (err, buffer) => {
-      if (err) {
-        reject(err);
-        return;
-      }
-      resolve(buffer.toString('hex'))
-    });
-  });
+const awaitableRandomBytes = utils.promisify(crypto.randomBytes);
+
+async function hexID(numberOfBytes = 16) {
+  const buffer = await awaitableRandomBytes(numberOfBytes);
+  
+  return buffer.toString('hex');
 }
 
 module.exports = hexID;
