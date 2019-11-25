@@ -1,10 +1,18 @@
 {
   "name": "hexid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates random hex string",
   "main": "index.js",
   "author": "Alan Friedman",
   "license": "MIT",
   "repository": "github:alanfriedman/hexid",
-  "keywords": ["hex", "uuid", "guid", "id", "random", "hexadecimal", "bytes"]
+  "keywords": [
+    "hex",
+    "uuid",
+    "guid",
+    "id",
+    "random",
+    "hexadecimal",
+    "bytes"
+  ]
 }
