@@ -4,5 +4,6 @@
   "description": "Generates random hex string",
   "main": "index.js",
   "author": "Alan Friedman",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "github:alanfriedman/hexid"
 }
