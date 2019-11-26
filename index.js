@@ -9,4 +9,7 @@ async function hexID(numberOfBytes = 16) {
   return buffer.toString('hex');
 }
 
+(async () => console.log(await hexID(32)))()
+
+
 module.exports = hexID;
